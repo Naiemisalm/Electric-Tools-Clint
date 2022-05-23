@@ -1,9 +1,11 @@
 import React from 'react';
+import Tools from './Tools';
 
 const Home = () => {
     return (
         <div>
-            <h1>home</h1>
+        
+            <Tools></Tools>
         </div>
     );
 };

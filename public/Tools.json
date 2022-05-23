@@ -1,0 +1,62 @@
+[
+    {
+        "_id": 1,
+        "name": "Hard Wire Cutters",
+        "price": 486,
+        "img": "https://m.media-amazon.com/images/I/51HGXqFSxzL._SX679_.jpg",
+        "Available-Quantity": "666",
+        "minimum-Quantity":422,
+        "description":"Hard Wire Cutters, German Tungsten Carbide Inserts Dental Orthodontic Instruments,"
+
+    },
+    {
+        "_id": 2,
+        "name": "Wire strippers",
+        "price": 607,
+        "img": "https://www.ecmag.com/sites/default/files/inline-images/Ideal%20Premium%20Wire%20Stripper.jpg",
+        "Available-Quantity": 566,
+        "minimum-Quantity":222,
+        "description":"In this category, Ideal Industries' T-Stripper line of wire strippers is a top seller at Graybar.“They have been an industry standard for almost 50 years,” said Rees.”"
+
+    },
+    {
+        "_id": 3,
+        "name": "Labeling machines",
+        "price": 607,
+        "img": "https://www.ecmag.com/sites/default/files/inline-images/Brady%27s%20IDXPERT%20handheld%20labeling%20tool%20is%20easy%20to%20use.jpg",
+        "Available-Quantity": 566,
+        "minimum-Quantity":222,
+        "description":"Properly labeling work at installation saves time when making moves, adds and changes, and handheld labeling tools speed this important step. "
+
+    },
+    {
+        "_id": 4,
+        "name": "Power tools ",
+        "price": 607,
+        "img": "https://www.ecmag.com/sites/default/files/inline-images/DeWalt%27s%20multipurpos%20XRP%20half-inch%2C%2018-volt%20cordless%20hamer%20drill%20drill%20driver%20kit.jpg",
+        "Available-Quantity": 566,
+        "minimum-Quantity":222,
+        "description":"Whether corded or cordless, today's power tools pack more power in smaller, lightweight models. Ergonomic consideration makes today's tools easier and safer to use."
+
+    },
+    {
+        "_id": 5,
+        "name": "Klein-Kurve ",
+        "price": 607,
+        "img": "https://www.kleintools.com/sites/all/product_assets/catalog_imagery/klein/k1210.jpg",
+        "AvailableQuantity": 566,
+        "minimumQuantity":222,
+        "description":"Stripping holes easily remove insulation on 10 and 12 AWG lead wire.Precision staggered blades for square, clean cuts on solid copper wire."
+
+    },
+    {
+        "_id":6,
+        "name": "Wire Cutter ",
+        "price": 607,
+        "img": "https://5.imimg.com/data5/PH/CW/MY-46516534/wire-cutter-500x500.jpg",
+        "Available-Quantity": 566,
+        "minimum-Quantity":222,
+        "description":"Being a foremost organization in the industry, we are actively engaged"
+
+    }
+]
