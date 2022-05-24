@@ -14,9 +14,9 @@ const Navber = () => {
     const menuItams = <>
     <li><Link to='/'>Home</Link></li>
     <li><Link to='/review'>Review</Link></li>
-    <li><Link to='/contact'>Contact us</Link></li>
+    <li><Link to='/manage'>Manage Products</Link></li>
     <li><Link to='/about'>About</Link></li>
-    <li><Link to='/purchase'>Purchase</Link></li>
+    {/* <li><Link to='/purchase'>Purchase</Link></li> */}
     <li><Link to='/blog'>Blog</Link></li>
     {
         user &&     <li><Link to='/dashboard'>Dashboard</Link></li>

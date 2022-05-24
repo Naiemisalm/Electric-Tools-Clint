@@ -24,7 +24,7 @@ function App() {
                         <Reviwe></Reviwe>
                     </RequireAuth>
                 }></Route>
-                <Route path='purchase' element={
+                <Route path='purchase/:purchaseId' element={
                     <RequireAuth>
                         <Purchase></Purchase>
                     </RequireAuth>
