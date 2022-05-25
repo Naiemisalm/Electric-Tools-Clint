@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
+import Booking from '../Home/Booking';
 import './Purchase.css'
 
 const Purchase = () => {
@@ -28,23 +29,13 @@ const Purchase = () => {
 
           <div class="card-actions justify-center">
             <input type="text" placeholder="Quantity" class="input input-bordered input-secondary w-full max-w-xs" />
-            <button class="btn btn-black">Buy Now</button>
+            <button class="btn btn-black">Oder</button>
           </div>
         </div>
       </div>
 
       <div className='cols-6'>
-        <div class="hero min-h-screen bg-base-200">
-          <div class="hero-content text-center">
-            <div class="max-w-md">
-              
-              <h1 class="text-5xl font-bold">Purchase</h1>
-              <p class="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-              <button class="btn btn-primary">Get Started</button>
-            </div>
-          </div>
-        </div>
-
+        <Booking></Booking>
       </div>
     </div>
   );
