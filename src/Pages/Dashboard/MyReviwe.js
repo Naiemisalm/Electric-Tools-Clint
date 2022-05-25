@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Reviwe = () => {
+const MyReviwe = () => {
     return (
         <div>
-            <h1>reviwe</h1>
+            <h1>My Reviwes</h1>
         </div>
     );
 };
 
-export default Reviwe;
+export default MyReviwe;
