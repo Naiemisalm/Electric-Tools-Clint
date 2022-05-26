@@ -9,10 +9,13 @@ import RequireAuth from './Pages/Login/RequireAuth';
 import SignUp from './Pages/Login/SignUp';
 import Purchase from './Pages/Purchase/Purchase';
 import Navber from './Pages/Shared/Navber';
+import { ToastContainer } from 'react-toastify';
+
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
     return (
-        <div className='max-w-7-xl mx-auto px-12'>
+        <div className='px-12'>
             <Navber></Navber>
             <Routes>
                 <Route path='/' element={<Home></Home>}></Route>
@@ -35,6 +38,8 @@ function App() {
                 }></Route>
 
             </Routes>
+            <ToastContainer />
+
         </div>
     );
 }

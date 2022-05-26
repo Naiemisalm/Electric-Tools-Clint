@@ -3,8 +3,10 @@ import SingleTools from './SingleTools';
 
 const Tools = () => {
     const [tools, setTools] = useState([]);
+    // const [booking, setBooking] = useState(null);
     useEffect( () => {
         fetch('http://localhost:5000/tools')
+        // fetch('Tools.json')
         .then(res=>res.json())
         .then(data=> setTools(data))
     },[])
@@ -15,10 +17,12 @@ const Tools = () => {
                 tools.map(tool=> <SingleTools
                 key={tools._id}
                 tool={tool}
-
+                    tools={tools}
+                    // setBooking={setBooking}
                 ></SingleTools>)
             }
         </div>
+
         </div>
     );
 };
