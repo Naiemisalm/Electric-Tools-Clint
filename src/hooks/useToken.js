@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react';
 const useToken = user => {
     const [token, setToken] = useState('');
     useEffect(() => {
+        console.log('user inside', user);
         const email = user?.user?.email;
         const currenUser = { email: email };
         if (email) {

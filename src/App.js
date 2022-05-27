@@ -12,6 +12,8 @@ import Navber from './Pages/Shared/Navber';
 import { ToastContainer } from 'react-toastify';
 
 import 'react-toastify/dist/ReactToastify.css';
+import AllUser from './Pages/Dashboard/AllUser';
+import Blog from './Pages/Shared/Blog';
 
 function App() {
     return (
@@ -22,6 +24,7 @@ function App() {
                 <Route path='/home' element={<Home></Home>}></Route>
                 <Route path='login' element={<Login></Login>}></Route>
                 <Route path='signup' element={<SignUp></SignUp>}></Route>
+                <Route path='blog' element={<Blog></Blog>}></Route>
                 <Route path='dashboard' element={
                     <RequireAuth>
                         <Dashboard />
@@ -29,6 +32,7 @@ function App() {
                 }>
                     <Route index element={<MyOders></MyOders>}></Route>
                     <Route path='reviwe' element={<MyReviwe></MyReviwe>}></Route>
+                    <Route path='users' element={<AllUser></AllUser>}></Route>
 
                 </Route>
                 <Route path='purchase/:purchaseId' element={
