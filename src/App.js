@@ -14,6 +14,7 @@ import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import AllUser from './Pages/Dashboard/AllUser';
 import Blog from './Pages/Shared/Blog';
+import ManageProducts from './Pages/Dashboard/ManageProducts';
 
 function App() {
     return (
@@ -33,6 +34,7 @@ function App() {
                     <Route index element={<MyOders></MyOders>}></Route>
                     <Route path='reviwe' element={<MyReviwe></MyReviwe>}></Route>
                     <Route path='users' element={<AllUser></AllUser>}></Route>
+                    <Route path='manage' element={<ManageProducts></ManageProducts>}></Route>
 
                 </Route>
                 <Route path='purchase/:purchaseId' element={
