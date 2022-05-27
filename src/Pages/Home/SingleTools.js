@@ -1,7 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 
-const SingleTools = ({tool,setBooking}) => {
+const SingleTools = ({tool}) => {
     const {name, img, price, available,minimun, _id, description} = tool;
     const navigate =useNavigate();
     
@@ -14,13 +14,9 @@ const SingleTools = ({tool,setBooking}) => {
         <div class="card-body">
           <h2 class="card-title">{name}</h2>
           <h4>Price: {price}</h4>
-          <h4>Available Quantity :{available} {available.length >1 ? '' : ''}</h4>
+          <h4>Available Quantity :{available}</h4>
           <h4>Minimum Quantity:{minimun}/pices</h4>
-          <h4>{
-            available.length > 0
-            ?<span>{available[0]}</span>
-            : <span>Tools not a available</span>
-            }</h4>
+          
           <p> {description}</p>
           <div class="card-actions justify-center">
 

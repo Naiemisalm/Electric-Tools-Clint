@@ -14,6 +14,7 @@ const Purchase = () => {
 
   const { purchaseId } = useParams();
   const [tools, SetTools] = useState({});
+  const {name, _id} = tools;
 
   useEffect(() => {
     const url = (`http://localhost:5000/tools/${purchaseId}`)
@@ -35,6 +36,7 @@ const Purchase = () => {
         name: name,
         email: email,
         phone: phone
+        
     }
     fetch('http://localhost:5000/', {
         headers: {
@@ -75,11 +77,11 @@ const Purchase = () => {
                 <div class="hero min-h-screen bg-base-200 grid  gap-3 justify-items-center  mt-2 grid-cols-2 px-28">
                     <div class="hero-content text-center">
                         <div class="max-w-md">
-                            <h1 className='text-3xl'>purchase</h1>
+                            <h1 className='font-bold text-4xl text-center'>purchase</h1>
 
 
                             <form onSubmit={handleBooking} className='grid  gap-3 justify-items-center mt-2'>
-                                <h3>Book:</h3>
+                                <h3 className='text-xl'>Book:{tools.name}</h3>
 
                                 <input type="text" name='name' value={user?.displayName || ""} className="input input-bordered input-accent w-50 max-w" />
                                 <input type="text" name='email' value={user?.email || ""} className="input input-bordered input-accent w-full max-w-xs" />
