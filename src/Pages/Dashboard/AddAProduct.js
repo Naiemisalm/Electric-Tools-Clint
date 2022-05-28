@@ -5,7 +5,7 @@ const AddAProduct = () => {
     const { register, handleSubmit } = useForm();
     const onSubmit = data => {
         console.log(data);
-        const url = (`http://localhost:5000/tools`);
+        const url = (`https://aqueous-garden-58958.herokuapp.com/tools`);
         fetch(url, {
             method: 'POST',
             headers: {

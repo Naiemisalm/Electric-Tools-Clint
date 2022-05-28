@@ -8,7 +8,7 @@ const ToolsBooking = () => {
   const [tools, SetTools] = useState({});
 
   useEffect(() => {
-    const url = (`http://localhost:5000/tools/${purchaseId}`)
+    const url = (`https://aqueous-garden-58958.herokuapp.com/tools/${purchaseId}`)
     fetch(url)
       .then(res => res.json())
       .then(data => SetTools(data))

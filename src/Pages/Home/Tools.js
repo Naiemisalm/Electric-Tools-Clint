@@ -5,7 +5,7 @@ const Tools = () => {
     const [tools, setTools] = useState([]);
     // const [booking, setBooking] = useState(null);
     useEffect( () => {
-        fetch('http://localhost:5000/tools')
+        fetch('https://aqueous-garden-58958.herokuapp.com/tools')
         // fetch('Tools.json')
         .then(res=>res.json())
         .then(data=> setTools(data))

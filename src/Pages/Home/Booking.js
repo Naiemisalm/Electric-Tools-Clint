@@ -23,7 +23,7 @@ const Booking = ({ SetTools, setBooking }) => {
             email: email,
             phone: phone
         }
-        fetch('http://localhost:5000/', {
+        fetch('https://aqueous-garden-58958.herokuapp.com/', {
             headers: {
                 'content-type': 'application/json'
             },

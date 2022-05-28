@@ -6,7 +6,7 @@ import Reviwe from './Reviwe';
 const Home = () => {
     return (
         <div>
-            {/* <Banner></Banner> */}
+            <Banner></Banner>
             <Tools></Tools>
             <Reviwe></Reviwe>
         </div>

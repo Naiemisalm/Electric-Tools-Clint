@@ -7,7 +7,7 @@ const ManageProducts = () => {
     const handleDelete = id =>{
         const proceed = window.confirm('Are you sure?');
         if(proceed){
-            const url = `http://localhost:5000/service/${id}`;
+            const url = `https://aqueous-garden-58958.herokuapp.com/service/${id}`;
             fetch(url, {
                 method: 'DELETE'
             })

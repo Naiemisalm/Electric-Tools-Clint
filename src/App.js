@@ -18,6 +18,7 @@ import ManageProducts from './Pages/Dashboard/ManageProducts';
 import AddAProduct from './Pages/Dashboard/AddAProduct';
 import NotFoundPage from './Pages/Shared/NotFoundPage';
 import Footer from './Pages/Shared/Footer';
+import Protfalio from './Pages/Home/Protfalio.js/Protfalio';
 
 function App() {
     return (
@@ -29,6 +30,7 @@ function App() {
                 <Route path='login' element={<Login></Login>}></Route>
                 <Route path='signup' element={<SignUp></SignUp>}></Route>
                 <Route path='blog' element={<Blog></Blog>}></Route>
+                <Route path='prot' element={<Protfalio></Protfalio>}></Route>
                 <Route path='dashboard' element={
                     <RequireAuth>
                         <Dashboard />

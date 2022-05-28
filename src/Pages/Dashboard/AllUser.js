@@ -5,7 +5,7 @@ import Loading from '../Shared/Loading';
 import User from './User';
 
 const AllUser = () => {
-    const { data: users, isLoading } = useQuery('users', () => fetch('http://localhost:5000/user', {
+    const { data: users, isLoading } = useQuery('users', () => fetch('https://aqueous-garden-58958.herokuapp.com/user', {
         method: 'GET',
         headers: {
             authorization: `Bearer ${localStorage.getItem('accessToken')}`
