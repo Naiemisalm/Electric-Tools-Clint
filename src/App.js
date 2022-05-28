@@ -16,6 +16,8 @@ import AllUser from './Pages/Dashboard/AllUser';
 import Blog from './Pages/Shared/Blog';
 import ManageProducts from './Pages/Dashboard/ManageProducts';
 import AddAProduct from './Pages/Dashboard/AddAProduct';
+import NotFoundPage from './Pages/Shared/NotFoundPage';
+import Footer from './Pages/Shared/Footer';
 
 function App() {
     return (
@@ -44,8 +46,11 @@ function App() {
                         <Purchase></Purchase>
                     </RequireAuth>
                 }></Route>
+                <Route path='/*' element={<NotFoundPage></NotFoundPage>}></Route>
 
             </Routes>
+            <Footer></Footer>
+            
             <ToastContainer />
 
         </div>
