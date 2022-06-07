@@ -1,7 +1,8 @@
 Live Link :
 
-Live Code Link :
-Server side code link:
+clint Code Link :https://github.com/programming-hero-web-course1/manufacturer-website-client-side-Naiemisalm
+
+Server side code link:https://github.com/programming-hero-web-course1/manufacturer-website-server-side-Naiemisalm
 
 
 

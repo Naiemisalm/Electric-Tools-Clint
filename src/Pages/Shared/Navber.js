@@ -13,7 +13,7 @@ const Navber = () => {
 
     const menuItams = <>
     <li><Link to='/'>Home</Link></li>
-    <li><Link to='/about'>About</Link></li>
+    <li><Link to='/prot'>Protfalio</Link></li>
     <li><Link to='/blog'>Blog</Link></li>
     {/* <li><Link to='/add'>Add a product</Link></li> */}
     {
