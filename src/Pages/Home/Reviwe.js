@@ -148,7 +148,7 @@ const Reviwe = () => {
                             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrUEsRA_77crcM2BYeVvarBzbxWEhY3_IYyA&usqp=CAU" alt="" height="200" class="rounded-xl" />
                         </figure>
                         <div class="card-body items-center text-center">
-                            <h2 class="card-title text-2xl">Black Smith</h2>
+                            <h2 class="card-title 76 ">Black Smith</h2>
                         </div>
                     </div>
                     <div class="card 76 bg-base-100 shadow-xl">
